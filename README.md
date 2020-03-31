@@ -1,2 +1,4 @@
 # Nano-Kiln_control
 This project is made to control the state of the air valve on the electrics kilns, Rhode in my case. this is a simple and easy project who uses the MAX31856 thermocouple interface. This choice is because of the sensor is an S thermocouple. the probe wiring ha to be made with the right kind of compensated cable, orange cable using the S TC, but it can be wired in parallel with the actual kiln connection without making interference with the temperature regulator.
+in the sketch is possible to change the switching point, that is when the valve have to close, changing the SetPoint value, actually setted to 650° C.
+the process is delayed because is possible to use a battery as supply. In this case is possible make longer the waiting time reducing the current cosumption. in the progetct is 5000 ms.
